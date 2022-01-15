@@ -25,9 +25,9 @@ while True:
     continue
   
   
-  pi = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))  #replace opencv picture format to PIL format
+  pi = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))  #replace opencv picture format with PIL format
   buf = BytesIO()             #store in buffer
-  pi.save(buf, format = 'JPEG')         #compress PIL picture to jpeg and write to buffer
+  pi.save(buf, format = 'JPEG')         #compress PIL picture to jpeg format and write to buffer
   jpeg = buf.getvalue()                 #read jpeg from buffer
   buf.close()
   sock.sendall(jpeg)         #transmit jpeg to server
