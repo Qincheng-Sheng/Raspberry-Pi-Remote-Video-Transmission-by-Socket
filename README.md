@@ -1,5 +1,5 @@
-# Raspi-video-to-PC
-Transmit the real time picture to PC by picamera. 
+# Stream Video from Raspberry Pi to PC
+Transmit the real time video to PC by picamera. 
 
 # Instructions
 1. Enable your picamera
