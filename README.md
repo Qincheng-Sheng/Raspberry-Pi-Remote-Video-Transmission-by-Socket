@@ -3,8 +3,8 @@ Transmit the real time picture to PC by raspi camera by socket
 
 # Instructions
 1. Enable your picamera
-2. Check your pc ip 
-3. Check your picamera device number and replace with your dev number in client.py #9line
+2. Check your pc ip and replace client.py #17-line with your ip
+3. Check your picamera device number and replace client.py #11-line with your dev number
 4. Run serve.py first and then run client.py
 
 # Reference link
