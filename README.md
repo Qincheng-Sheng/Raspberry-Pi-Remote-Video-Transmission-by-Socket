@@ -1,4 +1,4 @@
-# Stream Video from Raspberry Pi to PC
+# Raspberry Pi Remote Video Transmission by Socket
 Transmit the real time video to PC by picamera. 
 
 # Instructions
