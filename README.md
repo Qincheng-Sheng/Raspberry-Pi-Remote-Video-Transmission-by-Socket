@@ -3,8 +3,8 @@ Transmit the real time picture to PC by raspi camera by socket
 
 # Instructions
 1. Enable your picamera
-2. check your pc ip 
-3. use command v4l2-ctl --list-devices check your picamera device number
+2. Check your pc ip 
+3. Check your picamera device number and replace with your dev number in client.py #9line
 4. Run serve.py first and then run client.py
 
 # Reference link
