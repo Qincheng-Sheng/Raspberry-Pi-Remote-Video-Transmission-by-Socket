@@ -35,6 +35,7 @@ class VideoStreamingTest(object):
                     print(time.ctime())
                     cv2.imshow('image', image)
                     if cv2.waitKey(1) & 0xFF == ord('q'):
+                        cv2.destroyAllWindows()
                         break
         finally:
             self.connection.close()
