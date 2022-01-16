@@ -10,9 +10,11 @@ from io import BytesIO
 #get camera, replace 0 with your camera device number
 cap = cv2.VideoCapture(0)
 
-#change picture size 640*480
+#change picture size 640*480 and set fps
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+cap.set(cv2.CAP_PROP_FPS, 30)
+
 
 HOST, PORT = '192.168.0.108', 8000  #replace the host ip with your pc ip
 #connect to host
