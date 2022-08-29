@@ -20,5 +20,7 @@ https://linuxways.net/ubuntu/how-to-install-jupyter-notebook-on-ubuntu-20-04/
 
 https://pypi.org/project/opencv-python/
 
+## Introduction Video in Youtube 
+https://youtu.be/2zOsxW8vopY
 
 
