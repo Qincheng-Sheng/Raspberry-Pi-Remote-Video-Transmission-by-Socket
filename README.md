@@ -1,6 +1,10 @@
 # Raspberry Pi Remote Video Transmission by Socket
 Transmit the real time video to PC by picamera. 
 
+## Introduction Video in Youtube 
+
+    https://youtu.be/2zOsxW8vopY
+
 ## Instructions
 1. Enable your picamera
 2. Check your pc IP and replace client.py #17-line with your IP
@@ -19,9 +23,5 @@ Transmit the real time video to PC by picamera.
 3. How to install OpenCV in python:
 
     https://pypi.org/project/opencv-python/
-
-## Introduction Video in Youtube 
-
-https://youtu.be/2zOsxW8vopY
 
 
